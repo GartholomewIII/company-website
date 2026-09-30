@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Company Products</h1>
+
+<ul>
+    {% for item in products %}
+
+    <li>
+        {{ item }}
+    </li>
+
+    {% endfor %}
+</ul>
+
+{% comment %}Add more content here!{% endcomment %}
+{% endblock %}
